@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: redis
-    image: bitnami/redis
+    image: redis
     volumeMounts:
     - name: redis-storage
       mountPath: /data/redis
